@@ -1,0 +1,51 @@
+.header {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+
+    &__arrows {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &__prev, &__next {
+            font-size: 20px;
+            opacity: 0.5;
+
+            cursor: pointer;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__btn {
+        display: flex;
+        gap: 8px;
+        button {
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            padding: 15px 40px;
+            &:first-child {
+                background: none;
+                color: gray;
+                &:hover {
+                    scale: 1.03;
+                    color: white;
+                }
+            }
+            &:last-child {
+                background: white;
+                color: black;
+                &:hover {
+                    scale: 1.03;
+                }
+            }
+        }
+    }
+}
