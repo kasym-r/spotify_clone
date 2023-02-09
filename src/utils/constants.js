@@ -1,1 +1,1 @@
-const URL = ""
+export const URL = "https://shazam.p.rapidapi.com/"

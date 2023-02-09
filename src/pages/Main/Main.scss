@@ -1,0 +1,12 @@
+.main_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    // display: grid;
+    // grid-template-columns: repeat(8, 1fr);
+    // grid-gap: 10px;
+}
+

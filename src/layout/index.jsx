@@ -1,8 +1,11 @@
 import React, { useLayoutEffect } from 'react'
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
+
+//Hooks
 import { useTitle } from '../Hooks/useTitle'
 
+//Styles
 import './layout.scss'
 
 const MainLayout = ({ children, title}) => {
